@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: #666666;
+}
+/*header 布局*/
+.header{
+    width: 1550px;
+    height: 618px;
+    background-color: #5b4c5c;
+    margin: 0 auto;
+}
+.myName{
+    text-align: center;
+    font-size:25px;
+    font-family:"微软雅黑";
+    color:#fff;
+    padding-top:220px;
+    word-spacing:10px;
+    letter-spacing:5px;
+}
+.myWilling{
+    text-align: center;
+    font-size:15px;
+    font-family:"微软雅黑";
+    color:#fff;
+    padding-top:10px;
+    letter-spacing:2px;
+}
+.button-whatBg{
+    margin: 30px auto;
+    width: 140px;
+    height: 52px;
+    background-color: #ef7674;
+}
+.what{
+    text-align: center;
+    font-size:15px;
+    font-family:"Arial";
+    color:#fff;
+    line-height:52px;
+    letter-spacing:2px;
+    cursor: pointer;
+}
+.logIn{
+    width: 50px;
+    height: 20px;
+    background-color: #ef7674;
+    float: left;
+    margin-left:1350px;
+    margin-top: -390px;
+    color: #fff;
+    font-family:Arial;
+    font-size:13px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.signIn{
+    width: 50px;
+    height: 20px;
+    float: left;
+    margin-left:1415px;
+    margin-top: -390px;
+    color: #fff;
+    font-family:Arial;
+    font-size:13px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+/*menu布局*/
+.menu{
+    width: 1550px;
+    height: 140px;
+    background-color: #fff;
+}
+.menu ul{
+    width: 1000px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
+.menu ul>li{
+    float: left;
+    font-size:15px;
+    text-align: center;
+    line-height:140px;
+    letter-spacing:2px;
+    margin-left: 30px;
+}
+/*aboutMe布局*/
+.aboutMe{
+    width: 1550px;
+    height: 620px;
+    background-color: #f3f2f3;
+}
+.about-leftSide{
+    float: left;
+    width: 602px;
+    height: 620px;
+    background-color: #5b4c5c;
+}
+.about-rightSide{
+    float: left;
+}
+.about-rightSide .menu-headline{
+    font-size:20px;
+    font-weight:700;
+    font-family:"Arial";
+    color:#000;
+    letter-spacing:2px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.about-rightSide .menu-smallStrip{
+    width: 120px;
+    height: 6px;
+    background-color: #ef7674;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.about-rightSide .name{
+    font-size:17px;
+    font-weight:600;
+    font-family:"Arial";
+    color:#000;
+    letter-spacing:2px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+.about-rightSide .job{
+    font-size:17px;
+    font-family:"Arial";
+    color:#000;
+    letter-spacing:2px;
+    margin-left: 80px;
+    margin-top: 2px;
+}
+.about-rightSide .describeMe-1{
+    font-size:14px;
+    font-family:"微软雅黑 Light";
+    color:#a7a0a8;
+    letter-spacing:2px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.about-rightSide .describeMe-2{
+    font-size:14px;
+    font-family:"微软雅黑 Light";
+    color:#a7a0a8;
+    letter-spacing:2px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.about-rightSide .download-border{
+    width: 295px;
+    height: 55px;
+    border: 3px solid #000;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.about-rightSide .download-border .download-text{
+    font-size:17px;
+    font-weight:700;
+    font-family:"Arial";
+    color:#000;
+    line-height:55px;
+    text-align: center;
+}
+
+/*My Skills布局*/
+.mySkills{
+    width: 1550px;
+    height: 995px;
+    background-color: #fff;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.mySkills .skill-headline{
+    font-size:28px;
+    font-weight:500;
+    font-family:"Arial";
+    color:#000;
+    text-align: center;
+}
+.mySkills .skill-smallStripe{
+    width: 203px;
+    height: 6px;
+    background-color: #ef7674;
+    margin:20px auto 0px;
+}
+.mySkills .skill-record1{
+    font-size:15px;
+    font-weight:500;
+    font-family:"Arial";
+    color:#a7a0a8;
+    text-align: center;
+    margin-top:50px;
+}
+.mySkills .skill-record2{
+    font-size:15px;
+    font-weight:500;
+    font-family:"Arial";
+    color:#a7a0a8;
+    text-align: center;
+    margin-top:12px;
+}
+.mySkills .skills{
+    list-style:none;
+}
+.mySkills .skills>li{
+    position: relative;
+    /*外边框*/
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    border: 4px solid #ef7674;
+    float: left;
+    margin-left: 288px;
+    margin-top:100px;
+   /*li中的百分率*/
+    font-size:20px;
+    font-family:"Arial";
+    text-align: center;
+    line-height: 140px;
+}
+.mySkills .skills>li>p{
+    width: 140px;
+    height: 30px;
+    font-size:20px;
+    font-family:Arial;
+    line-height:30px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 160px;
+}
+/*experience布局*/
+.experiences{
+    width: 1550px;
+    height: 1175px;
+    background-color: #f8f7f8;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.experiences .experience-headline{
+    font-size:28px;
+    font-weight:500;
+    font-family:"Arial";
+    color:#000;
+    text-align: center;
+}
+.experiences .experience-smallStripe{
+    width: 273px;
+    height: 6px;
+    background-color: #ef7674;
+    margin:20px auto 0px;
+}
+.experiences .experience-record1{
+    font-size:15px;
+    font-weight:500;
+    font-family:"Arial";
+    color:#a7a0a8;
+    text-align: center;
+    margin-top:50px;
+}
+.experiences .experience-record2{
+    font-size:15px;
+    font-weight:500;
+    font-family:"Arial";
+    color:#a7a0a8;
+    text-align: center;
+    margin-top:12px;
+}
+.experiences  .experience-leftSlide{
+    float: left;
+    margin-top: 175px;
+    margin-left:310px;
+    /*字体设计*/
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size:17px;
+    font-family:Arial;
+}
+.experiences .experience-date1 .experience-date1Start{
+    width: 125px;
+    height: 40px;
+    margin-left: 35px;
+    background-color: #ef7674;
+}
+.experiences .experience-date1 .experience-date1End{
+    width: 160px;
+    height: 40px;
+    background-color: #483c49;
+    margin-top: 2px;
+}
+.experiences .experience-date2{
+    margin-top: 180px;
+}
+
+.experiences .experience-date2 .experience-date2Start{
+    width: 125px;
+    height: 40px;
+    margin-left: 35px;
+    background-color: #ef7674;
+}
+.experiences .experience-date2 .experience-date2End{
+    width: 160px;
+    height: 40px;
+    background-color: #483c49;
+    margin-top: 2px;
+}
+.experiences .experience-date3{
+    margin-top: 180px;
+}
+
+.experiences .experience-date3 .experience-date3Start{
+    width: 125px;
+    height: 40px;
+    margin-left: 35px;
+    background-color: #ef7674;
+}
+.experiences .experience-date3 .experience-date3End{
+    width: 160px;
+    height: 40px;
+    background-color: #483c49;
+    margin-top: 2px;
+}
+.experiences .experience-boundary{
+    float: left;
+    width: 2px;
+    height: 685px;
+    border-right: 1px dashed #000;
+    margin-left:43px;
+    margin-top:180px;
+}
+.experiences .experience-boundary ul{
+    list-style: none;
+}
+.experiences .experience-boundary ul>li{
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    margin-left:-1.5px;
+}
+.experiences .experience-boundary ul>li:nth-child(1){
+    margin-top: 33px;
+}
+.experiences .experience-boundary ul>li:nth-child(2){
+     margin-top: 254px;
+ }
+.experiences .experience-boundary ul>li:nth-child(3){
+    margin-top: 254px;
+}
+.experiences .experience-rightSlide{
+    float: left;
+    margin-top: 180px;
+    margin-left:70px;
+}
+.experiences .experience-rightSlide .experience-first{
+    margin-top: 28px;
+}
+.experiences .experience-rightSlide .experience-second,
+.experiences .experience-rightSlide .experience-third
+{
+    margin-top: 109px;
+}
+.experiences .experience-rightSlide .experience-company1,
+.experiences .experience-rightSlide .experience-company2,
+.experiences .experience-rightSlide .experience-company3
+{
+    font-size:18px;
+    font-family:Arial;
+}
+.experiences .experience-rightSlide .experience-profession1,
+.experiences .experience-rightSlide .experience-profession2,
+.experiences .experience-rightSlide .experience-profession3
+{
+    font-size:15px;
+    font-family:"微软雅黑 Light";
+    margin-top: 13px;
+}
+.experiences .experience-rightSlide .experience-proContent1,
+.experiences .experience-rightSlide .experience-proContent2,
+.experiences .experience-rightSlide .experience-proContent3
+{
+    font-size:15px;
+    font-family:"微软雅黑 Light";
+    margin-top: 18px;
+    color:#a7a0a8 ;
+}
+/*作品集布局*/
+.portfolio{
+    width: 1550px;
+    height: 460px;
+    background-color: #3b323c;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.portfolio .portfolio-headline{
+    font-size:28px;
+    font-weight:500;
+    font-family:"Arial";
+    color:#fff;
+    text-align: center;
+}
+.portfolio .portfolio-smallStripe{
+    width: 157px;
+    height: 6px;
+    background-color: #ef7674;
+    margin:17px auto 0px;
+}
+.portfolio .portfolio-record{
+    font-size:15px;
+    font-weight:500;
+    font-family:"微软雅黑 Light";
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.portfolio  ul{
+    width: 600px;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 123px;
+}
+.portfolio ul>li{
+    float: left;
+    font-size:15px;
+    font-weight:500;
+    font-family:"微软雅黑 Light";
+    color:#968691;
+    margin-left: 30px;
+}
+.portfolio ul>li:nth-child(2){
+    color:#fff;
+}
+/*方框布局*/
+.box{
+    width: 1550px;
+    height: 500px;
+}
+.box ul{
+    list-style: none;
+}
+.box ul>li{
+    float: left;
+    width: 387.5px;
+    height: 250px;
+}
+.box ul>li:nth-child(1),
+.box ul>li:nth-child(3),
+.box ul>li:nth-child(6),
+.box ul>li:nth-child(8)
+{
+    background-color: #f3f2f3;
+}
+.box ul>li:nth-child(4),
+.box ul>li:nth-child(7),
+.box ul>li:nth-child(5)
+{
+    background-color: #fff;
+}
+.box ul>li:nth-child(2){
+    background-color: #f08988;
+}
+/*自我评价布局*/
+.references{
+    width: 1550px;
+    height: 900px;
+    background-color: #f8f7f8;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+.references .references-headline{
+    font-size:28px;
+    font-family:"Arial";
+    color:#000;
+    text-align: center;
+}
+.references .references-smallStripe{
+    width: 187px;
+    height: 6px;
+    background-color: #ef7674;
+    margin:17px auto 0px;
+}
+.references .references-record{
+    font-size:15px;
+    font-weight:500;
+    font-family:"微软雅黑 Light";
+    color:#000;
+    text-align: center;
+    margin-top: 50px;
+}
+.references ul{
+    width: 1000px;
+    list-style:none;
+    margin: 123px auto 0px;
+}
+.references ul>li{
+    float: left;
+    width: 303px;
+    height: 403px;
+    background-color: #fff;
+    box-shadow: 0px 11px 5px -2px #e6e6e6 ;
+    margin-left: 30px;
+}
+.references ul>li p{
+    font-size:15px;
+    font-weight:500;
+    font-family:"微软雅黑 Light";
+    color:#666;
+    margin: 50px;
+    margin-left: 25px;
+    line-height: 25px;
+
+}
+.references ul>li span{
+    display: block;
+    margin-left: 25px;
+    font-size:15px;
+    font-family:"微软雅黑 Light";
+    color:#000;
+}
+.references ul>li .references-name{
+    font-weight:800;
+}
+/*touch me*/
+.touchMe{
+    width: 1550px;
+    height: 875px;
+    background-color: #fff;
+    padding-top:120px;
+    box-sizing: border-box;
+}
+.touchMe .touchMe-headline{
+    font-size:28px;
+    font-family:"Arial";
+    color:#000;
+    text-align: center;
+}
+.touchMe .touchMe-smallStripe{
+    width: 195px;
+    height: 6px;
+    background-color: #ef7674;
+    margin:17px auto 0px;
+}
+.touchMe .touchMe-record{
+    font-size:15px;
+    font-family:"微软雅黑 Light";
+    color:#000;
+    text-align: center;
+    margin-top: 50px;
+}
+.touchMe .touchMe-leftSlide{
+    float: left;
+    margin-top: 123px;
+    margin-left: 366px;
+}
+.touchMe .touchMe-leftSlide .contact{
+    font-size:15px;
+    font-family:Arial;
+    color:#000;
+}
+.touchMe .touchMe-leftSlide ul{
+    width: 200px;
+    list-style: none;
+    margin-top: 20px;
+}
+.touchMe .touchMe-leftSlide ul>Li{
+    width: 20px;
+    height: 20px;
+    background-color: #858790;
+    margin-top: 20px;
+}
+.touchMe .touchMe-leftSlide ul>Li p{
+    float: left;
+    width: 300px;
+    margin-left: 32px;
+    font-size:15px;
+    font-family:"微软雅黑 Light";
+}
+.touchMe .touchMe-rightSlide{
+    float: left;
+    margin-top: 123px;
+    margin-left: 366px;
+}
+.touchMe .touchMe-rightSlide .sendMail{
+    font-size:15px;
+    font-family:Arial;
+    color:#000;
+}
+.touchMe .touchMe-rightSlide ul{
+    list-style:none;
+    margin-top: 20px;
+}
+.touchMe .touchMe-rightSlide ul li{
+    margin-top: 20px;
+}
+.touchMe .touchMe-rightSlide ul li input{
+    width: 380px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.17);
+    font-size: 15px;
+    font-family:Arial;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.touchMe .touchMe-rightSlide .send{
+    margin-left: 237px;
+    margin-top: 30px;
+    width: 135px;
+    border: 4px solid #000;
+    font-size: 20px;
+    text-align: center;
+    line-height:45px;
+    font-family:Arial;
+}
